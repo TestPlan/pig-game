@@ -7,7 +7,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     var dice = Math.ceil(Math.random() * 6);
     var diceDOM = document.querySelector('.dice');
 
-    diceDOM.setAttribute('src', 'dice-' + dice + '.png');
+    diceDOM.setAttribute('src', 'images/dice-' + dice + '.png');
     diceDOM.style.display = 'block';
 
     if (lastDice === 6 && dice === 6) {
